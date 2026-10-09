@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXPLORE KENYA | WILDQUEST</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="logo">
+        <h1>WILDQUEST</h1>
+      </nav>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button type="Book">Book Trip</button>
+    </header>
+    <!-- Hero -->
+    <main>
+      <section class="hero">
+        <p>KARIBU KENYA</p>
+        <h2>
+          Find your next<br />
+          <span> Wild Adventure</span>
+        </h2>
+        <p class="hero-description">
+          From the wild African savannah to the turquoise Indian Ocean, discover
+          incredible places and experiences across Kenya.
+        </p>
+        <a href="#destinations" class="explore-button"
+          ><i class="fa-sharp fa-regular fa-arrow-down"></i>
+          Explore Destinations
+        </a>
+      </section>
+
+      <section id="destinations" class="destinations-sections">
+        <div>
+          <div>
+            <p>YOUR NEXT JOURNEY STARTS HERE</p>
+            <h2>Explore Kenya</h2>
+            <p>
+              Swipe through our filter and find the adventure that matches
+              your travel style
+            </p>
+          </div>
+        </div>
+        <!-- FILTERS -->
+
+        <div>
+          <div class="filter-panel">
+            <h2>Find Your Perfect Trip</h2>
+            <div class="filter-contols">
+
+              <div class="filter-group">
+                <label for="travel-style">Travel Style</label>
+                <select id="travel-style">
+                  <option value="all">All experiences</option>
+                  <option value="wildlife">Wildlife & Safari</option>
+                  <option value="beach">Beach & Relaxation</option>
+                  <option value="adventure">Adventure</option>
+                  <option value="culture">Culture</option>
+                </select>
+              </div>
+
+                <div class="filter-group">
+                  <label for="budget">Budget</label>
+                  <select id="budget">
+                    <option value="all">Any budget</option>
+                    <option value="budget">Budget-friendly</option>
+                    <option value="mid-range">Mid-range</option>
+                    <option value="luxury">Luxury</option>
+                  </select>
+                </div>
+
+              <div>
+              <label for="duration">Trip Duration</label>
+              <select id=" duration">
+                <option value="all">Any Duration</option>
+                <option value="short">1-2 days</option>
+                <option value="medium">3-4 days</option>
+                <option value="long">5+ days</option>
+              </select>
+            </div>
+
+            <div>
+            <button type="button" id="reset-filters"> 
+              Reset Filters
+            </button>
+
+          </div>
+        </div>
+      
+
+        <!-- DESTINATION CARDS -->
+        <div class="destination-list">
+          <!-- Maasai Mara -->
+          <article class="destination-card"
+          data-style="wildlife"
+          data-duration="medium"
+          data-budget="mid-range">
+          <a href="images/Mara1.jpg" target="_blank">
+            <img
+              src="images/Mara1.jpg"
+              alt="African wildlife in a natural safari landscape"
+              loading="lazy"
+            />
+
+          </a>
+            
+            <a href="images/Mara2.jpg" target="_blank">
+              <img src="images/Mara2.jpg" alt="Wild animals in Maasai Mara"
+              loading="lazy">
+            </a>
+            <a href="images/Mara3.jpg" target="_blank">
+              <img src="images/Mara3.jpg" alt="Wild animals in Maasai Mara"
+              loading="lazy">
+            </a>
+            <a href="images/Mara4.jpg" target="_blank">
+              <img src="images/Mara4.jpg" alt="Wild animals in Maasai Mara"
+              loading="lazy">
+            </a>
+
+            <div class="card-content">
+              <span class="category">WILDLIFE & SAFARI</span>
+              <h3>Maasai Mara</h3>
+
+              <p>
+                Discover sweeping grasslands, incredible wildlife and
+                unforgettable safari adventures.
+              </p>
+
+              <div class="card-bottom">
+                <span>Recommended: 3-4 days</span>
+                <a href="#maasai-mara">Explore ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

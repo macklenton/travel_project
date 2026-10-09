@@ -9,25 +9,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 100;
-    color: white;
+    
+    background-image: url("../images/login\ bg.jpg");
     
     
 }
 .hero{
-    min-height: 700px;
+    min-height: 700px;   
     position: relative;
     padding: 50px;
     z-index: 3;
-    background-image: linear-gradient(
-        rgba(25, 70, 82, 0.45),
-        rgba(25, 70, 82, 0.45)
-    ),
-    url("../images/woods.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-
 }
 .hero-login{
     align-items: center;
@@ -35,13 +26,13 @@ body{
     font-weight: 600;
     position: absolute;
     margin: 0 auto;
-    left: 45%;
+    left: 900px;
 
 }
 .hero-login h1{
     text-align: center;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 200px;
     font-weight: 350;
 }
 .form{
@@ -50,19 +41,23 @@ body{
     font-weight: normal;
     position: absolute;
     margin: 0 auto;
-    left: 40px;
-    margin-top: 50px;
+    left: 300px;
+    margin-top: 200px;
     position: relative;
     max-width: 400px;
-    min-height: 300px;
+    min-height: 350px;
     padding-top: 55px;
     box-shadow: 0 2px 25px rgba(0, 0, 0, 0.5);
+    
+    background-color: #97949411;
+    
     border-radius: 20px;
 }
 .form form{
     line-height: 1.2;
     gap: 40px;
     padding: 15px;
+    border-radius: 25px;
     position: relative;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
@@ -83,31 +78,45 @@ body{
     right: 80px;
     padding: 7px;
     border-radius: 5px;
-    background-color: rgb(163, 148, 148);
+    background-color:#A9F607 ;
 }
 .icons{
     margin: 0 ;
     padding: 15px;
     margin-bottom: 0;
+    text-align: center;
+    position: relative;
+    flex-direction: row;   
+    gap: 20px;
 }
 .icons small{
     font-size: 10px;
     position: absolute;
-    margin-bottom: 0;
+    margin-bottom: 12px;
     padding: 16px;
+
     margin-top: 40px;
     font-size: 14px;
     left: 40px;
 
 }
+
 .icons a{
     padding: 16px;
     margin-top: 40px;
     position: absolute;
+    align-items: center;
+    font-size: bold;
+    
+    justify-content: center;
+    
     left: 120px;
+    gap: 20px;
+    padding: 12px;
+    
     
     margin-top: 23px;
-    color: whitesmoke;
+    color: rgb(177, 240, 4);
     
 }
 .signin{

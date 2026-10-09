@@ -12,15 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     color: white;
-    background-color: #d8e5e7;   
-}
-.hero {
-    min-height: 100px;
-
-    padding: 45px;
-
-    position: relative;
-
+    background-color: #d8e5e7;
     background-image: linear-gradient(
         rgba(25, 70, 82, 0.45),
         rgba(25, 70, 82, 0.45)
@@ -32,6 +24,11 @@ body{
     background-position: center;
 
     background-attachment: fixed;
+}
+.hero {
+    min-height: 100vh;
+    padding: 45px;
+    position: relative;
 }
 .hero::before{
     content: "";
@@ -97,7 +94,7 @@ header{
     opacity: 0.7;
 }
 .nav-button{
-    background-color: white;
+    
     padding: 5px 7px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -108,11 +105,17 @@ header{
     margin: 0 auto;
     left: 1050px;
     margin-top: 50px;
-    border-collapse: collapse;
-
+    
 }
-.nav-button:hover{
-    color: blue;
+.nav-button button{
+    background-color: rgba(214, 212, 212, 0.74);
+    border-collapse: collapse;
+    padding: 7px;
+    border-radius: 7px;
+}
+.nav-button button:hover{
+    background-color: green;
+    color: wheat;
 }
 section{
     position: relative;
@@ -239,6 +242,115 @@ section{
     font-size: 13px;
     line-height: 1.2;
     color: white;
+}
+.explore{
+    margin: 0 auto;
+    padding: 55px;
+}
+.explore button{
+    width: 90px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: yellow;
+    
+}
+.explore button:hover{
+    background-color: green;
+    color: white;
+}
+/* ABOUT SECTION*/
+.about{
+    padding: 80px 80px;   
+    color: black;
+}
+.about-content{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.about-text{
+    flex: 1;
+}
+.about-label{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: yellow ;
+}
+.about h2{
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+.about h2 span{
+    color: #b1a798;
+}
+.about-text p{
+    line-height: 1.7;
+    margin-bottom: 18px;
+    color: white;
+    
+}
+.about-highlight{
+    flex: 1;
+    padding: 30px;
+    background: #D9D9D9;
+    border-radius: 12px;
+}
+.about-highlight h3{
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.about-item{
+    margin-bottom: 22px;
+    
+}
+.about-item strong{
+    display: block;
+    margin-bottom: 6px;
+}
+.about-item p{
+    margin: 0;
+    line-height: 1.5;
 
+}
+/* FOOTER*/
+.footer{
+    background: #45467e3f;
+    color: rgb(8, 240, 8);
+    padding: 60px 8px 20px;
+    text-align: center;
+}
+.footer-socials{
+    position: relative;
+    left: 10px;
+    gap: 10px;
+    
+    
+}
+.footer-socials a{
+    color: rgb(216, 216, 85);
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 25px;
+}
+.footer-socials a:hover{
+    color: green;
+
+}
+.footer-bottom{
+    max-width: 1100px;
+    margin: 50px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom p{
+    margin: 0;
+    font-size: 14px;
     
 }
