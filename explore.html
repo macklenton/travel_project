@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/explore.css">
   </head>
   <body>
     <header>
@@ -17,8 +18,11 @@
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="#contact">Contact</a>
+        
       </nav>
-      <button type="Book">Book Trip</button>
+      <nav>
+        <a href="Book" class="book-button">Book Trip</a>
+      </nav>
     </header>
     <!-- Hero -->
     <main>
@@ -33,17 +37,17 @@
           incredible places and experiences across Kenya.
         </p>
         <a href="#destinations" class="explore-button"
-          ><i class="fa-sharp fa-regular fa-arrow-down"></i>
+          ><i class="fa-duotone fa-light fa-arrow-down"></i>
           Explore Destinations
         </a>
       </section>
 
       <section id="destinations" class="destinations-sections">
-        <div>
+        <div class="section-heading">
           <div>
             <p>YOUR NEXT JOURNEY STARTS HERE</p>
             <h2>Explore Kenya</h2>
-            <p>
+            <p class="section-description">
               Swipe through our filter and find the adventure that matches
               your travel style
             </p>
@@ -51,7 +55,7 @@
         </div>
         <!-- FILTERS -->
 
-        <div>
+        <div class="filter-section">
           <div class="filter-panel">
             <h2>Find Your Perfect Trip</h2>
             <div class="filter-contols">
@@ -88,7 +92,7 @@
             </div>
 
             <div>
-            <button type="button" id="reset-filters"> 
+            <button type="button" id="reset-filters" class="reset-button"> 
               Reset Filters
             </button>
 
@@ -103,7 +107,8 @@
           data-style="wildlife"
           data-duration="medium"
           data-budget="mid-range">
-          <a href="images/Mara1.jpg" target="_blank">
+          <div class="destination-gallery">
+            <a href="images/Mara1.jpg" target="_blank">
             <img
               src="images/Mara1.jpg"
               alt="African wildlife in a natural safari landscape"
@@ -125,6 +130,9 @@
               loading="lazy">
             </a>
 
+          </div>
+          
+
             <div class="card-content">
               <span class="category">WILDLIFE & SAFARI</span>
               <h3>Maasai Mara</h3>
@@ -135,8 +143,8 @@
               </p>
 
               <div class="card-bottom">
-                <span>Recommended: 3-4 days</span>
-                <a href="#maasai-mara">Explore ↗</a>
+                <span>Kenya, Narok County</span>
+                <a href="#maasai-mara">Explore </a>
               </div>
             </div>
           </article>
