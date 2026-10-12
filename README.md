@@ -71,6 +71,17 @@ WILDQUEST/
 │   └── Mara4.jpg
 │
 └── README.md
+## SETUP INSTRUCTIONS
+Option 1: Open directly
+
+Download or clone the repository and open:
+``` ```
+
+index.html  in a web browser.
+
+Option 2: Use live Server
+``` ```
+
 
 ## Future Improvements
 
