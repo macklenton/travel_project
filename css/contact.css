@@ -9,6 +9,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
+/*NAVIGATION*/
 header {
   display: flex;
   gap: 24px;
@@ -43,9 +44,10 @@ header {
 .nav-links a:hover {
   color: #e9a23b;
 }
+
 /* HERO SECTION*/
 main {
-  padding-top: 103px;
+  padding-top: 113px;
   left: 0;
 }
 .origin {
@@ -56,6 +58,7 @@ main {
 }
 .hero p {
   top: 20px;
+  text-align: center;
 
   padding: 25px;
   font-size: 20px;
@@ -65,7 +68,9 @@ main {
 }
 .hero h1 {
   margin-bottom: 20px;
+  text-align: center;
   font-size: 30px;
+  margin: 0 auto;
   color: white;
   line-height: 1.2;
   max-width: 500px;
@@ -73,7 +78,9 @@ main {
 .hero span {
   display: block;
   max-width: 550px;
+  text-align: center;
   font-size: 15px;
+  margin: 0 auto;
   color: #f5ebdd;
 }
 .hero-contact {
@@ -84,11 +91,16 @@ main {
   justify-content: space-between;
   gap: 22px;
 }
-.contact-clan,
+.contact-clan{
+    display: grid;
+    grid-template-columns:  repeat(2, minmax(0, 2fr));
+    gap: 25px;
+}
 .contact-vilage {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 2fr));
   gap: 25px;
+  
 }
 .contact-group {
   padding: 18px;
@@ -107,246 +119,134 @@ main {
   font-size: 12px;
   display: block;
 }
-/* ===================================== 6. SOCIAL MEDIA ===================================== */
-.follow-section {
-  text-align: center;
-  margin-top: 15px;
-}
-.follow-section h2 {
-  font-size: 22px;
-  margin-bottom: 8px;
-}
-.follow-section p {
-  font-size: 14px;
-  color: #f5ebdd;
-  max-width: 650px;
-  margin: 0 auto 18px;
-}
-.contact-socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-.contact-socials a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background-color: #263d2b;
-  color: #f5ebdd;
-  padding: 10px 16px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-size: 13px;
-}
-.contact-socials a:hover {
-  background-color: #e9a23b;
-  color: #263d2b;
-} /* ===================================== 7. CONTACT FORM ===================================== */
-.form {
-  max-width: 850px;
-  margin: 0 auto 45px;
-  padding: 35px;
-  border-radius: 12px;
-  background-color: #f5ebdd;
-  color: #263d2b;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
-}
-.form h2 {
-  font-size: 27px;
-  margin-bottom: 10px;
-}
-.form p {
-  color: #536b4c;
-  font-size: 14px;
-  margin-bottom: 25px;
-}
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.form-group label {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 8px;
-}
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 13px;
-  border: 1px solid #c5cebd;
-  border-radius: 7px;
-  background-color: #ffffff;
-  color: #263d2b;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-}
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-  color: #888f84;
-}
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: 2px solid #536b4c;
-  border-color: #536b4c;
-}
-.form-group textarea {
-  min-height: 140px;
-  resize: vertical;
-} /* Current HTML uses an anchor as its submit control */
-.form-group a {
-  align-self: flex-start;
-  display: inline-block;
-  margin-top: 12px;
-  padding: 12px 28px;
-  border-radius: 25px;
-  background-color: #263d2b;
-  color: #f5ebdd;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
-}
-.form-group a:hover {
-  background-color: #e9a23b;
-  color: #263d2b;
-} /* Also style a real button if you change the HTML later */
-.form-group button {
-  align-self: flex-start;
-  margin-top: 12px;
-  padding: 12px 28px;
-  border: none;
-  border-radius: 25px;
-  background-color: #263d2b;
-  color: #f5ebdd;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.form-group button:hover {
-  background-color: #e9a23b;
-  color: #263d2b;
-} /* ===================================== 8. FREQUENTLY ASKED QUESTIONS ===================================== */
-.hero-questions {
-  background-color: #ffffff;
-  padding: 55px 7%;
-  color: #263d2b;
-}
-.hero-questions > div:first-child {
-  margin-bottom: 25px;
-}
-.hero-questions > div:first-child h2 {
-  font-size: 27px;
-  line-height: 1.3;
-}
-.questions {
-  padding: 22px 10px;
-  border-bottom: 1px solid #dadfd6;
-  transition: background-color 0.3s;
-}
-.questions:hover {
-  background-color: #f8f6f0;
-}
-.questions h3 {
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-.questions p {
-  font-size: 14px;
-  color: #657263;
-  max-width: 750px;
-} /* ===================================== 9. FOOTER ===================================== */
-.footer-bottom {
-  background-color: #263d2b;
-  color: #f5ebdd;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  padding: 25px 5%;
-  font-size: 13px;
-} /* ===================================== 10. TABLET AND MOBILE RESPONSIVENESS ===================================== */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    gap: 15px;
-    padding: 18px 4%;
-  }
-  .nav-links {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-  .origin {
-    margin: 12px;
-    padding: 20px;
-  }
-  .hero {
-    padding: 15px 5px 25px;
-  }
-  .hero h1 {
-    font-size: 30px;
-  }
-  .hero > span {
-    font-size: 14px;
-  }
-  .contact-clan,
-  .contact-village {
-    grid-template-columns: 1fr;
-  }
-  .hero-contact {
-    gap: 15px;
-  }
-  .follow-section h2 {
-    font-size: 19px;
-  }
-  .contact-socials {
-    gap: 8px;
-  }
-  .contact-socials a {
-    padding: 9px 12px;
-  }
-  .form {
-    margin: 0 5% 30px;
-    padding: 23px;
-  }
-  .form h2 {
-    font-size: 23px;
-  }
-  .hero-questions {
-    padding: 35px 6%;
-  }
-  .hero-questions > div:first-child h2 {
-    font-size: 23px;
-  }
-  .questions h3 {
-    font-size: 15px;
-  }
-  .footer-bottom {
-    flex-direction: column;
+.follow-section{
     text-align: center;
-  }
+    line-height: 1.1;
 }
-@media (max-width: 420px) {
-  .logo h1 {
-    font-size: 22px;
-  }
-  .nav-links {
+.follow-section h2{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+.follow-section p{
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+.contact-socials{
+    
+    text-align: center;
+    
+    
+}
+.contact-socials a{
+    text-decoration: none;
+    background: #a17c4b;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+}
+.contact-socials a:hover{
+    background-color: #83a174;
+
+}
+/* FORM */
+.form{
+    text-align: center;
+    background-color: #f5ebdd;
+    max-width: 850px;
+    padding: 25px;
+    align-items: center;
+    margin:  0 auto ;
+    max-height: 700px;
+    border-radius: 20px;
+}
+.form h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.form p{
+    font-size: 16px;
+    color: #536B4C;
+    margin-bottom: 25px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-  }
-  .nav-links a {
-    font-size: 11px;
-  }
-  .hero h1 {
-    font-size: 26px;
-  }
-  .origin {
-    margin: 8px;
-    padding: 15px;
-  }
-  .form {
-    padding: 18px;
-  }
+    text-align: left;
+}
+.form-group label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #36512c;
+}
+.form-group input{
+    padding: 10px;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+}
+.form-group textarea{
+    padding: 10px;
+    border-radius: 10px;
+}
+.form-group a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #e9a23b;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.form-group a:hover{
+    background-color: #a17c4b;
+    color: white;
+}
+/*======FAQs=======*/
+.hero-questions{
+    text-align: center;
+    background-color: white;
+    max-width: 850px;
+    padding: 55px 7%;
+    align-items: center;
+    margin:  0 auto ;
+    max-height: 700px;
+    border-radius: 20px;
+}
+.questions{
+    background-color:#f5ebdd ;
+    text-align: left;
+    border-radius: 10px;
+    gap: 15px;
+
+}
+.questions:hover{
+    background-color: #F8F6F0;
+    box-shadow: 0 10px 10px gray;
+}
+.questions h3{
+    font-size: 18px;
+    margin: 10px;
+    color: #536B4C;
+}
+.questions p{
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 400;
+    color: #657263;    
+}
+/*FOOTER*/
+.footer-bottom{
+    text-align: center;
+    background-color: #536B4C;
+    padding: 10px 6%;
+    justify-content: space-between;
+    
+}
+.footer-bottom p{
+    font-size: 16px;
+    font-weight: 700;
 }
