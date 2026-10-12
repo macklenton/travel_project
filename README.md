@@ -5,7 +5,7 @@ Discover Kenya. Live the Adventure.
 
 The project focuses on front-end web development, responsive layouts, and user interface design using HTML and CSS.
 
-##Technologies Used
+## Technologies Used
 
 1. HTML5 — Page structure and content.
 2. CSS3 — Styling, layouts, responsive design, and hover effects.
