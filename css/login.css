@@ -70,15 +70,25 @@ body{
     color: black;
     line-height: 1.1;
 }
-.button{
-    position: absolute;
-    margin-top: 70px;
+
+.button {
+    display: block;
     width: 200px;
-    align-items: center;
-    right: 80px;
-    padding: 7px;
+    margin: 25px auto 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    background-color: #A9F607;
+    border: none;
     border-radius: 5px;
-    background-color:#A9F607 ;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8bd000;
+    color: white;
 }
 .icons{
     margin: 0 ;

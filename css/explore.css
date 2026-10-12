@@ -166,6 +166,7 @@ header {
   padding: 0 17px;
   background-color: #263d2b;
   color: #ffffff;
+  width: 100%;
   border: none;
   border-radius: 8px;
   font-size: 14px;
@@ -251,3 +252,17 @@ header {
 .card-bottom a:hover {
   color: #b17a25;
 }
+
+.explore-footer {
+    text-align: center;
+    padding: 35px 20px;
+    background: #173f35;
+    color: white;
+}
+
+.explore-footer p {
+    color: #d6ddd9;
+    font-size: 13px;
+}
+
+

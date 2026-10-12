@@ -247,14 +247,17 @@ section{
     margin: 0 auto;
     padding: 55px;
 }
-.explore button{
+.explore a{
     width: 90px;
     border-radius: 25px;
     padding: 15px;
     background-color: yellow;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
     
 }
-.explore button:hover{
+.explore a:hover{
     background-color: green;
     color: white;
 }
