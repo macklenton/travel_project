@@ -75,12 +75,12 @@ WILDQUEST/
 Option 1: Open directly
 
 Download or clone the repository and open:
-``` ```
+```https://github.com/macklenton/travel_project ```
 
 index.html  in a web browser.
 
 Option 2: Use live Server
-``` ```
+``` https://macklenton.github.io/travel_project/ ```
 
 
 ## Future Improvements
