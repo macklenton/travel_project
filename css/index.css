@@ -201,7 +201,14 @@ section{
 .reserve-button{
     width: 100%;
     border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    left: 60px;
     padding: 7px;
+    padding: 12px 12px;
     font-size: 17px;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
