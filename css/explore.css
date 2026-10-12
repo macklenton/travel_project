@@ -10,13 +10,18 @@ body {
 }
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 10px;
-
-  justify-content: space-between;
+  min-height: 75px;
+  padding: 15px 6%;
+  background-color: #263d2b;
+  display: flex;
   align-items: center;
-  padding: 25px 7%;
-  background: #173f35;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1000;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 .logo {
   font-weight: 400;
@@ -31,8 +36,6 @@ header {
 .nav-links {
   display: flex;
   gap: 40px;
-  position: relative;
-  margin: 0 auto;
   align-items: center;
 }
 .nav-links a {
@@ -43,17 +46,19 @@ header {
   left: 800px;
   color: white;
 }
+.nav-links a:hover{
+   color: #E9A23B;
+}
 .book-button {
-  margin: 0 auto;
-  position: relative;
-  left: 1000px;
-
+  padding: 10px 18px;
+  background-color: #e9a23b;
+  color: #263d2b;
+  border-radius: 6px;
   text-decoration: none;
-  background-color: yellow;
-  padding: 10px;
-  border-radius: 20px;
-  color: black;
-  margin-bottom: 10px;
+  font-weight: bold;
+}
+.book-button:hover{
+  background-color: #d4af6a;
 }
 .hero {
   padding: 90px 10%;
@@ -95,6 +100,9 @@ header {
 .explore-button:hover {
   background: white;
 }
+.explore-button i{
+  color: black;
+}
 .destination-section {
   padding: 70px 7%;
 }
@@ -119,7 +127,7 @@ header {
   padding: 35px 6%;
   background-color: #f5ebdd;
 }
-.filter-panel {
+.filter-heading {
   max-width: 1200px;
   margin: 0 auto;
   padding: 32px;
@@ -188,12 +196,12 @@ header {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 5px 18px rgba(38, 61, 43, 0.1);
-  transition: transform 0.25s ease;
+  transition: transform 0.25s;
 }
 .destination-card:hover {
   transform: translateY(-5px);
 }
- /* FOUR-IMAGE GALLERY */
+/* FOUR-IMAGE GALLERY */
 .destination-gallery {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
@@ -213,11 +221,11 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s;
 }
 .destination-gallery a:hover img {
   transform: scale(1.05);
-} 
+}
 /* CARD TEXT */
 .card-content {
   padding: 22px;
@@ -232,7 +240,7 @@ header {
   font-size: 25px;
   margin: 8px 0;
 }
-.card-content  p {
+.card-content p {
   color: #62594d;
   margin-bottom: 18px;
 }
@@ -254,15 +262,13 @@ header {
 }
 
 .explore-footer {
-    text-align: center;
-    padding: 35px 20px;
-    background: #173f35;
-    color: white;
+  text-align: center;
+  padding: 35px 20px;
+  background: #173f35;
+  color: white;
 }
 
 .explore-footer p {
-    color: #d6ddd9;
-    font-size: 13px;
+  color: #d6ddd9;
+  font-size: 13px;
 }
-
-

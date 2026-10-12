@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5EBDD;
+    color: #263D2B;
+    line-height: 1.6;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 75px;
+    padding: 15px 6%;
+    background-color: #263D2B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1000;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+.header h1 {
+    color: #ecebe8;
+    font-size: 24px;
+}
+.header nav {
+    display: flex;
+    gap: 25px;
+}
+
+.header nav a {
+    color: #F5EBDD;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    color: #E9A23B;
+}
+
+.nav-button {
+    padding: 10px 18px;
+    background-color: #E9A23B;
+    color: #263D2B;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 75px;
+}
+
+.hero-booking {
+    padding: 75px 8%;
+    background:
+        linear-gradient(rgba(38, 61, 43, 0.82),
+                        rgba(38, 61, 43, 0.75)),
+        url("../images/Mara1.jpg");
+    color: white;
+}
+.heading {
+    color: #B17A25;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hero-booking .heading {
+    color: #E9A23B;
+}
+
+.booking-hero h2 {
+    font-size: clamp(34px, 5vw, 52px);
+    line-height: 1.15;
+    margin-bottom: 18px;
+}
+.hero-booking  p{
+    max-width: 600px;
+    color: #b1813e;
+}
+.booking-form {
+    padding: 32px;
+}
+
+.booking-form h3 {
+    font-size: 20px;
+    margin-bottom: 22px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EEE4D7;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 13px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #263D2B;
+    background-color: #FFFDF9;
+    border: 1px solid #D9D0C3;
+    border-radius: 7px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #E9A23B;
+    color: #263D2B;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #F4BB61;
+}
+.footer {
+    padding: 35px 6%;
+    background-color: #263D2B;
+    color: #F5EBDD;
+    text-align: center;
+}
+.footer p {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
