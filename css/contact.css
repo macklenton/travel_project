@@ -91,16 +91,15 @@ main {
   justify-content: space-between;
   gap: 22px;
 }
-.contact-clan{
-    display: grid;
-    grid-template-columns:  repeat(2, minmax(0, 2fr));
-    gap: 25px;
+.contact-clan {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 2fr));
+  gap: 25px;
 }
 .contact-vilage {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 2fr));
   gap: 25px;
-  
 }
 .contact-group {
   padding: 18px;
@@ -119,134 +118,251 @@ main {
   font-size: 12px;
   display: block;
 }
-.follow-section{
-    text-align: center;
-    line-height: 1.1;
+.follow-section {
+  text-align: center;
+  line-height: 1.1;
 }
-.follow-section h2{
-    font-size: 20px;
-    color: white;
-    letter-spacing: 1px;
+.follow-section h2 {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
 }
-.follow-section p{
-    font-size: 15px;
-    letter-spacing: 1px;
-
+.follow-section p {
+  font-size: 15px;
+  letter-spacing: 1px;
 }
-.contact-socials{
-    
-    text-align: center;
-    
-    
+.contact-socials {
+  text-align: center;
 }
-.contact-socials a{
-    text-decoration: none;
-    background: #a17c4b;
-    padding: 8px;
-    border-radius: 10px;
-    color: black;
+.contact-socials a {
+  text-decoration: none;
+  background: #a17c4b;
+  padding: 8px;
+  border-radius: 10px;
+  color: black;
 }
-.contact-socials a:hover{
-    background-color: #83a174;
-
+.contact-socials a:hover {
+  background-color: #83a174;
 }
 /* FORM */
-.form{
-    text-align: center;
-    background-color: #f5ebdd;
-    max-width: 850px;
-    padding: 25px;
-    align-items: center;
-    margin:  0 auto ;
-    max-height: 700px;
-    border-radius: 20px;
+.form {
+  text-align: center;
+  background-color: #f5ebdd;
+  max-width: 850px;
+  padding: 25px;
+  align-items: center;
+  margin: 0 auto;
+  max-height: 700px;
+  border-radius: 20px;
 }
-.form h2{
-    margin-bottom: 10px;
-    font-size: 20px;
+.form h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
 }
-.form p{
-    font-size: 16px;
-    color: #536B4C;
-    margin-bottom: 25px;
+.form p {
+  font-size: 16px;
+  color: #536b4c;
+  margin-bottom: 25px;
 }
-.form-group{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: left;
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
 }
-.form-group label{
-    font-size: 16px;
-    font-weight: 600;
-    color: #36512c;
+.form-group label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #36512c;
 }
-.form-group input{
-    padding: 10px;
-    border-radius: 10px;
-    border-top: none;
-    border-left: none;
+.form-group input {
+  padding: 10px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
 }
-.form-group textarea{
-    padding: 10px;
-    border-radius: 10px;
+.form-group textarea {
+  padding: 10px;
+  border-radius: 10px;
 }
-.form-group a{
-    text-decoration: none;
-    text-align: center;
-    background-color: #e9a23b;
-    padding: 5px;
-    border-radius: 10px;
-    color: black;
-    font-weight: 600;
-    margin-top: 12px;
+.form-group a {
+  text-decoration: none;
+  text-align: center;
+  background-color: #e9a23b;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+  margin-top: 12px;
 }
-.form-group a:hover{
-    background-color: #a17c4b;
-    color: white;
+.form-group a:hover {
+  background-color: #a17c4b;
+  color: white;
 }
 /*======FAQs=======*/
-.hero-questions{
-    text-align: center;
-    background-color: white;
-    max-width: 850px;
-    padding: 55px 7%;
-    align-items: center;
-    margin:  0 auto ;
-    max-height: 700px;
-    border-radius: 20px;
+.hero-questions {
+  text-align: center;
+  background-color: white;
+  max-width: 850px;
+  padding: 55px 7%;
+  align-items: center;
+  margin: 0 auto;
+  max-height: 700px;
+  border-radius: 20px;
 }
-.questions{
-    background-color:#f5ebdd ;
-    text-align: left;
-    border-radius: 10px;
-    gap: 15px;
-
+.questions {
+  background-color: #f5ebdd;
+  text-align: left;
+  border-radius: 10px;
+  gap: 15px;
 }
-.questions:hover{
-    background-color: #F8F6F0;
-    box-shadow: 0 10px 10px gray;
+.questions:hover {
+  background-color: #f8f6f0;
+  box-shadow: 0 10px 10px gray;
 }
-.questions h3{
-    font-size: 18px;
-    margin: 10px;
-    color: #536B4C;
+.questions h3 {
+  font-size: 18px;
+  margin: 10px;
+  color: #536b4c;
 }
-.questions p{
-    font-size: 14px;
-    margin: 10px;
-    font-weight: 400;
-    color: #657263;    
+.questions p {
+  font-size: 14px;
+  margin: 10px;
+  font-weight: 400;
+  color: #657263;
 }
 /*FOOTER*/
-.footer-bottom{
-    text-align: center;
-    background-color: #536B4C;
-    padding: 10px 6%;
-    justify-content: space-between;
-    
+.footer-bottom {
+  text-align: center;
+  background-color: #536b4c;
+  padding: 10px 6%;
+  justify-content: space-between;
 }
-.footer-bottom p{
-    font-size: 16px;
-    font-weight: 700;
+.footer-bottom p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* MOBILE PHONE RESPONSIVENESS */
+@media (max-width: 480px) {
+  /* HEADER */
+  header {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+  }
+  .logo {
+    margin: 0;
+    text-align: center;
+  }
+  .nav-links {
+    gap: 12px;
+    width: 100%;
+  }
+  .nav-links a {
+    font-size: 11px;
+  }
+  /* CONTENT SPACING */
+  main {
+    padding-top: 115px;
+  }
+  .origin {
+    margin: 10px;
+    padding: 16px;
+    border-radius: 14px;
+  }
+   /* HERO */
+  .hero p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+  }
+  .hero h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .hero span {
+    font-size: 13px;
+  }
+   /* CONTACT CARDS */
+  .contact-clan,
+  .contact-village,
+  .contact-vilage {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .contact-group {
+    padding: 15px;
+  }
+  .contact-group h2 {
+    font-size: 17px;
+  }
+  .contact-group span {
+    font-size: 13px;
+  } 
+  /* SOCIAL LINKS */
+  .follow-section h2 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .follow-section p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .contact-socials {
+    gap: 8px;
+  }
+  .contact-socials a {
+    font-size: 12px;
+    padding: 8px 10px;
+  } 
+  /* FORM */
+  .form {
+    padding: 18px 14px;
+    border-radius: 14px;
+  }
+  .form h2 {
+    font-size: 19px;
+  }
+  .form p {
+    font-size: 13px;
+  }
+  .form-group label {
+    font-size: 14px;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    font-size: 14px;
+    padding: 11px;
+  }
+   /* FAQ */
+  .hero-questions {
+    
+    padding: 25px 15px;
+    border-radius: 14px;
+  }
+  .hero-questions h2 {
+    font-size: 20px;
+  }
+  .questions {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .questions h3 {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .questions p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+   /* FOOTER */
+  .footer-bottom {
+    padding: 15px 10px;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+  }
 }
