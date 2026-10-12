@@ -71,6 +71,16 @@ WILDQUEST/
 │   └── Mara4.jpg
 │
 └── README.md
+
+## Future Improvements
+
+Possible future development includes:
+
+1. Improving accessibility and mobile responsiveness.
+2. Adding more Kenyan destinations and image galleries.
+3. Improving destination filters and navigation.
+4. Adding a database for storing booking enquiries.
+   
 ## Author
 
 Macklenton
