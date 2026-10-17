@@ -185,7 +185,7 @@ main {
   padding: 10px;
   border-radius: 10px;
 }
-.form-group a {
+.form-group button {
   text-decoration: none;
   text-align: center;
   background-color: #e9a23b;
@@ -195,7 +195,7 @@ main {
   font-weight: 600;
   margin-top: 12px;
 }
-.form-group a:hover {
+.form-group button:hover {
   background-color: #a17c4b;
   color: white;
 }

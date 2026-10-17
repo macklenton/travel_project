@@ -3,296 +3,298 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EXPLORE KENYA | WILDQUEST</title>
+    <title>Explore Kenya | WildQuest</title>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/explore.css">
+    <link rel="stylesheet" href="css/explore.css" />
   </head>
   <body>
     <header>
-      <nav class="logo">
+      <div class="logo">
         <h1>WILDQUEST</h1>
-      </nav>
+      </div>
+
       <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="contact.html  ">Contact</a>
-        
-      </nav>
-      <nav>
-        <a href="book.html" class="book-button">Book Trip</a>
+        <a href="index.html">HOME</a>
+        <a href="explore.html">EXPLORE</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="book.html">BOOK TRIP</a>
       </nav>
     </header>
-    <!-- Hero -->
+
     <main>
       <section class="hero">
         <p>KARIBU KENYA</p>
-        <h2>
-          Find your next<br />
-          <span> Wild Adventure</span>
-        </h2>
+
+        <h2>Find your next<br /><span>Wild Adventure</span></h2>
+
         <p class="hero-description">
           From the wild African savannah to the turquoise Indian Ocean, discover
           incredible places and experiences across Kenya.
         </p>
-        <a href="#destinations" class="explore-button"
-          ><i class="fa-duotone fa-light fa-arrow-down"></i>
+
+        <a href="#destinations" class="explore-button">
+          <i class="fa-duotone fa-light fa-arrow-down"></i>
           Explore Destinations
         </a>
       </section>
 
-      <section  class="destinations-sections">
+      <section class="destinations-sections">
         <div class="section-heading">
           <div>
             <p>YOUR NEXT JOURNEY STARTS HERE</p>
             <h2>Explore Kenya</h2>
             <p class="section-description">
-              Swipe through our filter and find the adventure that matches
-              your travel style
+              Swipe through our filter and find the adventure that matches your
+              travel style.
             </p>
           </div>
         </div>
-        <!-- FILTERS -->
 
         <div class="filter-section">
           <div class="filter-heading">
             <h2>Find Your Perfect Trip</h2>
-            <div class="filter-contols">
 
+            <div class="filter-controls">
               <div class="filter-group">
                 <label for="travel-style">Travel Style</label>
                 <select id="travel-style">
                   <option value="all">All experiences</option>
                   <option value="wildlife">Wildlife & Safari</option>
-                  <option value="beach">Beach & Relaxation</option>
+                  <option value="beach">Beach &Relaxation</option>
                   <option value="adventure">Adventure</option>
                   <option value="culture">Culture</option>
                 </select>
               </div>
 
-                <div class="filter-group">
-                  <label for="budget">Budget</label>
-                  <select id="budget">
-                    <option value="all">Any budget</option>
-                    <option value="budget">Budget-friendly</option>
-                    <option value="mid-range">Mid-range</option>
-                    <option value="luxury">Luxury</option>
-                  </select>
-                </div>
+              <div class="filter-group">
+                <label for="budget">Budget</label>
+                <select id="budget">
+                  <option value="all">Any budget</option>
+                  <option value="budget">Budget-friendly</option>
+                  <option value="mid-range">Mid-range</option>
+                  <option value="luxury">Luxury</option>
+                </select>
+              </div>
 
               <div class="filter-group">
-              <label for="duration">Trip Duration</label>
-              <select id=" duration">
-                <option value="all">Any Duration</option>
-                <option value="short">1-2 days</option>
-                <option value="medium">3-4 days</option>
-                <option value="long">5+ days</option>
-              </select>
+                <label for="duration">Trip Duration</label>
+                <select id="duration">
+                  <option value="all">Any Duration</option>
+                  <option value="short">1-2 days</option>
+                  <option value="medium">3-4 days</option>
+                  <option value="long">5+ days</option>
+                </select>
+              </div>
+
+              <div>
+                <button type="button" id="reset-filters" class="reset-button">
+                  Reset Filters
+                </button>
+              </div>
             </div>
-
-            <div>
-            <button type="button" id="reset-filters" class="reset-button"> 
-              Reset Filters
-            </button>
-
           </div>
-        </div><br><br>
-      
+        </div>
 
-        <!-- DESTINATION CARDS -->
         <div class="destination-list" id="destinations">
-          <!-- Maasai Mara -->
-          <article class="destination-card"
-          data-style="wildlife"
-          data-duration="medium"
-          data-budget="mid-range">
-          <div class="destination-gallery">
-            <a href="images/Mara1.jpg" target="_blank">
-            <img
-              src="images/Mara1.jpg"
-              alt="African wildlife in a natural safari landscape"
-              loading="lazy"
-            />
-
-          </a>
-            
-            <a href="images/Mara2.jpg" >
-              <img src="images/Mara2.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-            <a href="images/Mara3.jpg">
-              <img src="images/Mara3.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-            <a href="images/Mara4.jpg">
-              <img src="images/Mara4.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-
-          </div>
-          
+          <article
+            class="destination-card"
+            data-style="wildlife"
+            data-duration="medium"
+            data-budget="mid-range"
+          >
+            <div class="destination-gallery">
+              <a href="images/Mara1.jpg" target="_blank">
+                <img
+                  src="images/Mara1.jpg"
+                  alt="African wildlife in Maasai Mara"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/Mara2.jpg" target="_blank">
+                <img
+                  src="images/Mara2.jpg"
+                  alt="Wild animals in Maasai Mara"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/Mara3.jpg" target="_blank">
+                <img
+                  src="images/Mara3.jpg"
+                  alt="Wild animals in Maasai Mara"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/Mara4.jpg" target="_blank">
+                <img
+                  src="images/Mara4.jpg"
+                  alt="Wild animals in Maasai Mara"
+                  loading="lazy"
+                />
+              </a>
+            </div>
 
             <div class="card-content">
               <span class="category">WILDLIFE & SAFARI</span>
               <h3>Maasai Mara</h3>
-
               <p>
                 Discover sweeping grasslands, incredible wildlife and
                 unforgettable safari adventures.
               </p>
-
               <div class="card-bottom">
                 <span>Kenya, Narok County</span>
-                
               </div>
             </div>
           </article>
-          <!-- DIANI BEACH -->
 
-          <article class="destination-card"
-          data-style="Beach and Relaxation"
-          data-duration="medium"
-          data-budget="mid-range">
-          <div class="destination-gallery">
-            <a href="images/Diani1.jpg">
-            <img
-              src="images/Diani1.jpg"
-              alt="African wildlife in a natural safari landscape"
-              loading="lazy"
-            />
-
-          </a>
-            
-            <a href="images/Diani2.jpg" >
-              <img src="images/Diani2.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-            <a href="images/Diani3.jpg">
-              <img src="images/Diani3.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-            <a href="images/Diani4.avif">
-              <img src="images/Diani4.avif" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-
-          </div>
-          
+          <article
+            class="destination-card"
+            data-style="beach"
+            data-duration="medium"
+            data-budget="mid-range"
+          >
+            <div class="destination-gallery">
+              <a href="images/Diani1.jpg" target="_blank">
+                <img
+                  src="images/Diani1.jpg"
+                  alt="Diani Beach coastline"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/Diani2.jpg" target="_blank">
+                <img src="images/Diani2.jpg" alt="Diani Beach" loading="lazy" />
+              </a>
+              <a href="images/Diani3.jpg" target="_blank">
+                <img
+                  src="images/Diani3.jpg"
+                  alt="Diani Beach scenery"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/Diani4.avif" target="_blank">
+                <img
+                  src="images/Diani4.avif"
+                  alt="Diani Beach landscape"
+                  loading="lazy"
+                />
+              </a>
+            </div>
 
             <div class="card-content">
               <span class="category">BEACH & RELAXATION</span>
-              <h3>DIANI</h3>
-
+              <h3>Diani</h3>
               <p>
-                 Unwind on beautiful white sands, enjoy ocean views
-                  and discover Kenya's coastal charm.
+                Unwind on beautiful white sands, enjoy ocean views and discover
+                Kenya's coastal charm.
               </p>
-
               <div class="card-bottom">
-                <span>Kenya, Mombasa County</span>
-                
+                <span>Kenya, Kwale County</span>
               </div>
             </div>
           </article>
-          <!-- AMBOSELI -->
-           <article class="destination-card"
-          data-style="wildlife"
-          data-duration="medium"
-          data-budget="mid-range">
-          <div class="destination-gallery">
-            <a href="images/Amboseli1.jpg">
-            <img
-              src="images/Amboseli1.jpg"
-              alt="African wildlife in a natural safari landscape"
-              loading="lazy"
-            />
 
-          </a>
-            
-            <a href="images/Amboseli2.jpg">
-              <img src="images/Amboseli2.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-            <a href="images/Amboseli3.jpg">
-              <img src="images/Amboseli3.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-            <a href="images/Amboseli4.jpg">
-              <img src="images/Amboseli4.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-
-          </div>
-          
+          <article
+            class="destination-card"
+            data-style="wildlife"
+            data-duration="medium"
+            data-budget="mid-range"
+          >
+            <div class="destination-gallery">
+              <a href="images/Amboseli1.jpg" target="_blank">
+                <img
+                  src="images/Amboseli1.jpg"
+                  alt="Amboseli National Park landscape"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/Amboseli2.jpg" target="_blank">
+                <img
+                  src="images/Amboseli2.jpg"
+                  alt="Wildlife in Amboseli National Park"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/Amboseli3.jpg" target="_blank">
+                <img
+                  src="images/Amboseli3.jpg"
+                  alt="Animals in Amboseli National Park"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/Amboseli4.jpg" target="_blank">
+                <img
+                  src="images/Amboseli4.jpg"
+                  alt="Amboseli National Park scenery"
+                  loading="lazy"
+                />
+              </a>
+            </div>
 
             <div class="card-content">
               <span class="category">WILDLIFE & SAFARI</span>
               <h3>Amboseli National Park</h3>
-
               <p>
-                Experience magnificent elephant herds and
-                breathtaking views towards Mount Kilimanjaro.
+                Experience magnificent elephant herds and breathtaking views
+                towards Mount Kilimanjaro.
               </p>
-
               <div class="card-bottom">
                 <span>Kenya, Kajiado County</span>
-                
               </div>
             </div>
           </article>
 
-          <!-- Mount Kenya -->
-           <article class="destination-card"
-          data-style="wildlife"
-          data-duration="medium"
-          data-budget="mid-range">
-          <div class="destination-gallery">
-            <a href="images/MtKenya1.jpg" >
-            <img
-              src="images/MtKenya1.jpg"
-              alt="African wildlife in a natural safari landscape"
-              loading="lazy"
-            />
-
-          </a>
-            
-            <a href="images/MtKenya2.avif" >
-              <img src="images/MtKenya2.avif" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-            <a href="images/MtKenya3.jpg">
-              <img src="images/MtKenya3.jpg" alt="Wild animals in Maasai Mara"
-              loading="lazy">
-            </a>
-            
-
-          </div>
-          
+          <article
+            class="destination-card"
+            data-style="adventure"
+            data-duration="medium"
+            data-budget="mid-range"
+          >
+            <div class="destination-gallery">
+              <a href="images/MtKenya1.jpg" target="_blank">
+                <img
+                  src="images/MtKenya1.jpg"
+                  alt="Mount Kenya landscape"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/MtKenya2.avif" target="_blank">
+                <img
+                  src="images/MtKenya2.avif"
+                  alt="Mount Kenya scenery"
+                  loading="lazy"
+                />
+              </a>
+              <a href="images/MtKenya3.jpg" target="_blank">
+                <img
+                  src="images/MtKenya3.jpg"
+                  alt="Mount Kenya hiking landscape"
+                  loading="lazy"
+                />
+              </a>
+            </div>
 
             <div class="card-content">
               <span class="category">HIKING & ADVENTURE</span>
               <h3>Mt Kenya</h3>
-
               <p>
-                Discover dramatic mountain scenary, highland forests and unforgettable trekking experiences
+                Discover dramatic mountain scenery, highland forests and
+                unforgettable trekking experiences.
               </p>
-
               <div class="card-bottom">
                 <span>Kenya, Laikipia County</span>
-                
               </div>
             </div>
           </article>
-           
         </div>
       </section>
-      <!-- FOOTER -->
 
-      <div class="explore-footer" id="contact">
-          <p>&copy;2026 WILDQUEST. All rights reserved.</p>
-          <p>Contact: 0712 345 678</p>
-        </div>
+      <footer class="explore-footer" id="contact">
+        <p>&copy; 2026 WILDQUEST. All rights reserved.</p>
+        <p>Contact: 0712 345 678</p>
+      </footer>
     </main>
   </body>
 </html>
