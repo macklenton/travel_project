@@ -226,6 +226,9 @@ section{
     align-items: center;
     margin-top: 140px;
 }
+.rating a{
+    color: yellow;
+}
 .rating span{
    
     bottom: 25px;
