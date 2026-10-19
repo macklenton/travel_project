@@ -46,6 +46,27 @@ Helping potential travellers identify destinations that match their interests.
 Generating travel enquiries through a structured trip-planning interface.
 
 
+## Problem Statement
+
+Kenya offers a wide range of tourism experiences, including wildlife safaris, coastal destinations, adventure activities, and cultural attractions. However, travelers may find it difficult to explore these options in one organized place, compare destinations based on their interests and budgets, and access travel information through a clear, user-friendly interface.
+
+WILDQUEST aims to address this challenge by providing a visually engaging travel website that organizes Kenyan destinations into accessible categories. Through destination galleries, travel-style filters, budget categories, and intuitive navigation, the website helps users discover travel opportunities and explore options that match their preferences.
+
+The project focuses on improving the presentation and accessibility of travel information through a consistent, responsive, and nature-inspired user interface.
+
+## Target Audience
+
+WILDQUEST is designed for individuals interested in discovering and exploring travel destinations across Kenya.
+
+1. Local tourists: Kenyan residents looking for destinations to visit within the country.
+
+2. International tourists: Visitors interested in experiencing Kenya's wildlife, beaches, landscapes, and cultural heritage.
+
+3. Adventure seekers: Travelers interested in activities such as safaris, hiking, and outdoor exploration.
+
+4. Families and groups: People looking for destinations suitable for shared holidays, weekend trips, and group adventures.
+
+
  ## Project Structure
  
 WILDQUEST/
@@ -71,6 +92,7 @@ WILDQUEST/
 │   └── Mara4.jpg
 │
 └── README.md
+
 ## SETUP INSTRUCTIONS
 Option 1: Open directly
 
@@ -81,6 +103,74 @@ index.html  in a web browser.
 
 Option 2: Use live Server
 ``` https://macklenton.github.io/travel_project/ ```
+
+
+## Page Links 
+Here are the various links to my website 
+
+### Home Page
+``` https://macklenton.github.io/travel_project/```
+
+### Explore Page
+``` https://macklenton.github.io/travel_project/explore.html```
+
+### Login Page
+``` https://macklenton.github.io/travel_project/login.html```
+
+### Booking Page
+
+``` https://macklenton.github.io/travel_project/book.html```
+
+### Contact Page
+``` https://macklenton.github.io/travel_project/contact.html```
+
+### Maasai Mara Page
+``` https://macklenton.github.io/travel_project/maasai_mara.html```
+
+
+
+## Design Styling
+ This are some of my color palettes, typography styles and button stylesi have used in my creating my website
+### Color palette
+
+| Purpose            | Color         | Hex       |
+|--------------------|---------------|-----------|
+| Primary dark green | Forest Green  | `#263D2B` |
+| Secondary green    | Deep Green    | `#173F35` |
+| Main background    | Warm Beige    | `#F5EBDD` |
+| Primary accent     | Golden Orange | `#E9A23B` |
+| Secondary accent   | Brown         | `#A17C4B` |
+| Light background   | Cream         | `#FFFDF9` |
+| Light gold         | Gold          | `#D4AF6A` |
+| Text gray          | Gray          | `#62594D` |
+| White              | White         | `#FFFFFF` |
+| Login accent       | Lime Green    | `#A9F607` |
+
+
+### Button Styles
+
+| Button | Background | Text Color | Border Radius | Hover Effect |
+|--------|------------|------------|---------------|--------------|
+| Book Trip | `#E9A23B` | `#263D2B` | `6px–8px` | Changes to lighter gold/white |
+| Explore | `#D4AF6A` | `#173F35` | `6px–25px` | Changes to white |
+| Submit | `#E9A23B` | `#263D2B` | `7px–10px` | Changes to lighter gold |
+| Reset Filters | `#263D2B` | `#FFFFFF` | `8px` | Changes to `#3B5940` |
+| Login | `#A9F607` | `#000000` | `8px` | Changes to `#8BD000` |
+| Social Login | `#FFFFFF` | `#333333` | `50%` | Changes to `#A9F607` |
+| Navigation Links | Transparent | `#FFFFFF` | — | Changes to `#E9A23B` |
+
+### Typography
+
+| Element | Font | Style |
+|---------|------|-------|
+| Main font | `Arial, Helvetica, sans-serif` | Clean and readable |
+| Headings | Arial | Large, bold/light weights depending on section |
+| Body text | Arial | Regular weight with increased line-height |
+| Navigation | Arial | Small, bold/regular text |
+| Buttons | Arial | Bold text |
+| Hero headings | Arial | Large, prominent typography |
+| Labels | Arial | Small, bold text |
+
 
 
 ## Future Improvements
