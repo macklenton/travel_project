@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5EBDD;
+    color: #263D2B;
+}
+
+
+/* =========================
+   SUCCESS PAGE
+========================= */
+
+.success-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+
+    background:
+        linear-gradient(
+            rgba(38, 61, 43, 0.75),
+            rgba(38, 61, 43, 0.75)
+        ),
+        url("../images/Mara1.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* =========================
+   SUCCESS CARD
+========================= */
+
+.success-card {
+    width: 100%;
+    max-width: 600px;
+    padding: 55px 45px;
+
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.95);
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================
+   SUCCESS ICON
+========================= */
+
+.success-icon {
+    width: 80px;
+    height: 80px;
+
+    margin: 0 auto 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #E9A23B;
+
+    color: #263D2B;
+
+    border-radius: 50px;
+
+    font-size: 35px;
+
+    box-shadow: 0 5px 15px rgba(38, 61, 43, 0.2);
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.success-card h1 {
+    margin-bottom: 20px;
+
+    color: #263D2B;
+
+    font-size: 36px;
+    font-weight: 600;
+
+    line-height: 1.2;
+}
+
+
+/* =========================
+   MESSAGE
+========================= */
+
+.message {
+    margin-bottom: 15px;
+
+    color: #263D2B;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    line-height: 1.6;
+}
+
+.details {
+    max-width: 480px;
+
+    margin: 0 auto 30px;
+
+    color: #62594D;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+
+/* EXPLORE BUTTON */
+
+.explore-button {
+    display: inline-block;
+
+    padding: 13px 22px;
+
+    background-color: #E9A23B;
+
+    color: #263D2B;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    
+}
+
+.explore-button:hover {
+    background-color: #D4AF6A;
+
+    
+}
+
+
+/* HOME BUTTON */
+
+.home-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 12px 20px;
+
+    background-color: #263D2B;
+
+    color: white;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    
+}
+
+.home-button:hover {
+    background-color: #173F35;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .success-page {
+        padding: 20px 15px;
+    }
+
+    .success-card {
+        padding: 40px 25px;
+    }
+
+    .success-icon {
+        width: 65px;
+        height: 65px;
+
+        font-size: 28px;
+    }
+
+    .success-card h1 {
+        font-size: 28px;
+    }
+
+    .message {
+        font-size: 15px;
+    }
+
+    .details {
+        font-size: 13px;
+    }
+
+    .action {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .explore-button,
+    .home-button {
+        width: 100%;
+    }
+}
